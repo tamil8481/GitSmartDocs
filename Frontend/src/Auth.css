@@ -1,0 +1,125 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d1117;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.auth-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.auth-brand-mark {
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, #58a6ff, #a371f7);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-brand-mark span {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.auth-brand h1 {
+  font-size: 1.3rem;
+  color: #e6edf3;
+  font-weight: 400;
+}
+
+.auth-brand h1 strong {
+  color: #58a6ff;
+}
+
+.auth-subtitle {
+  font-size: 0.85rem;
+  color: #8b949e;
+  margin-bottom: 24px;
+}
+
+.auth-field {
+  margin-bottom: 16px;
+}
+
+.auth-field label {
+  display: block;
+  font-size: 0.85rem;
+  color: #c9d1d9;
+  margin-bottom: 6px;
+}
+
+.auth-field input {
+  width: 100%;
+  padding: 10px 12px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.auth-field input:focus {
+  border-color: #58a6ff;
+}
+
+.auth-error {
+  font-size: 0.82rem;
+  color: #f85149;
+  margin-bottom: 12px;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 11px;
+  background: #238636;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 4px;
+}
+
+.auth-btn:hover { background: #2ea043; }
+.auth-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.auth-switch {
+  text-align: center;
+  font-size: 0.83rem;
+  color: #8b949e;
+  margin-top: 20px;
+}
+
+.auth-switch button {
+  background: none;
+  border: none;
+  color: #58a6ff;
+  cursor: pointer;
+  font-size: 0.83rem;
+  padding: 0;
+}
+
+.auth-switch button:hover { text-decoration: underline; }

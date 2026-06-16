@@ -2,6 +2,14 @@ import base64
 import requests
 from django.conf import settings
 
+TEMPLATE_PROMPTS = {
+    'simple': "Generate a simple README.md with: title, short description, and usage.",
+    'opensource': "Generate an open source README.md with: title, description, features, installation, usage, contributing, and license sections.",
+    'professional': "Generate a professional README.md with: title, badges, description, features, tech stack, installation, usage, API reference, and license sections.",
+}
+
+REQUIRED_SECTIONS = ['installation', 'usage', 'description', 'features', 'license']
+
 
 def fetch_file_contents(repo_full_name, file_paths, token):
     headers = {"Authorization": f"token {token}"}
@@ -16,7 +24,7 @@ def fetch_file_contents(repo_full_name, file_paths, token):
     return contents
 
 
-def generate_readme_with_ai(repo_name, commit_message, file_contents):
+def generate_readme_with_ai(repo_name, commit_message, file_contents, template='simple'):
     from groq import Groq
     client = Groq(api_key=settings.GROQ_API_KEY)
 
@@ -25,23 +33,33 @@ def generate_readme_with_ai(repo_name, commit_message, file_contents):
         for path, content in file_contents.items()
     )
 
+    template_instruction = TEMPLATE_PROMPTS.get(template, TEMPLATE_PROMPTS['simple'])
+
     prompt = f"""You are a technical documentation expert.
-A developer just pushed code to the repository: {repo_name}
+Repository: {repo_name}
 Commit message: {commit_message}
 
 Changed files:
 {file_summary}
 
-Generate a concise, professional README.md for this repository based on the above changes.
-Include: Project title, description, features, setup instructions, and usage.
+{template_instruction}
 Output only the markdown content."""
 
     response = client.chat.completions.create(
-        model="llama3-8b-8192",
+        model="llama-3.3-70b-versatile",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=1000,
     )
     return response.choices[0].message.content
+
+
+def check_missing_sections(readme_content):
+    readme_lower = readme_content.lower()
+    suggestions = []
+    for section in REQUIRED_SECTIONS:
+        if section not in readme_lower:
+            suggestions.append(f"Add a '{section.capitalize()}' section to improve your README.")
+    return suggestions
 
 
 def update_github_readme(repo_full_name, new_content, token):

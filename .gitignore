@@ -1,0 +1,22 @@
+# Environment variables
+Backend/.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+
+# Node
+node_modules/
+Frontend/node_modules/
+
+# Vite
+Frontend/dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db

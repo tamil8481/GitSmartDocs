@@ -4,32 +4,39 @@
 [![License](https://img.shields.io/github/license/GitSmartDocs/GitSmartDocs)](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE)
 
 ## Description
-GitSmart Docs is a comprehensive documentation project designed to provide developers with a robust and reliable source of information for their Git-related needs. This project aims to simplify the process of working with Git by offering detailed guides, tutorials, and reference materials.
+GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized platform for accessing and managing technical documentation. The project aims to streamline the documentation process, making it easier for developers to find, create, and share knowledge.
 
 ## Features
-* **Comprehensive Guides**: In-depth guides covering various aspects of Git, from basic to advanced topics
-* **Tutorials and Examples**: Step-by-step tutorials and examples to help developers get started with Git
-* **API Reference**: Detailed documentation of the Git API, including endpoints, parameters, and response formats
-* **Community-Driven**: Open-source and community-driven, ensuring that the documentation stays up-to-date and relevant
+* Automatic documentation generation
+* Customizable documentation templates
+* Real-time collaboration and commenting
+* Integrated search and filtering
+* Support for multiple documentation formats
 
 ## Tech Stack
-* **Markdown**: Used for writing and formatting documentation
-* **Read the Docs**: Hosting platform for the documentation
-* **Travis CI**: Continuous integration and build automation tool
-* **GitHub**: Version control and repository management
+* Python 3.9+
+* Flask 2.0+
+* SQLAlchemy 1.4+
+* Markdown 3.3+
+* Read the Docs 5.0+
 
 ## Installation
-To contribute to the GitSmart Docs project, follow these steps:
+To install GitSmart Docs, follow these steps:
 1. Clone the repository: `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
-2. Install dependencies: `npm install`
-3. Build the documentation: `npm run build`
-4. Start the server: `npm run serve`
+2. Navigate to the project directory: `cd GitSmartDocs`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Initialize the database: `flask db init`
+5. Run the application: `flask run`
 
 ## Usage
-To use the GitSmart Docs, simply navigate to the [website](https://docs.gitsmartdocs.io/) and browse through the available guides, tutorials, and API reference materials.
+To use GitSmart Docs, follow these steps:
+1. Access the web application: `http://localhost:5000`
+2. Create a new account or log in to an existing one
+3. Explore the documentation library
+4. Create, edit, or comment on documentation pages
 
 ## API Reference
-The API reference is available [here](https://docs.gitsmartdocs.io/api-reference). It provides detailed information on the Git API, including endpoints, parameters, and response formats.
+For detailed information on the GitSmart Docs API, visit our [API documentation](https://docs.gitsmartdocs.io/api).
 
 ## License
-GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). This means that you are free to use, modify, and distribute the documentation as you see fit, as long as you include the original copyright and license notice.
+GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to or using GitSmart Docs, you agree to the terms and conditions of this license.

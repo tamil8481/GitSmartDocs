@@ -4,35 +4,37 @@
 [![License](https://img.shields.io/github/license/GitSmartDocs/GitSmartDocs)](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE)
 
 ## Description
-GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized knowledge base for Git and related technologies. The goal of this project is to create a well-structured and easy-to-understand documentation set that covers various aspects of Git, including its core concepts, advanced features, and best practices.
+GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized platform for accessing and managing project documentation. The goal of this project is to streamline the documentation process, making it easier for developers to collaborate and maintain their projects.
 
 ## Features
-* Comprehensive documentation on Git core concepts and advanced features
-* Step-by-step guides and tutorials for common Git workflows
-* Extensive API reference for Git commands and options
-* Cross-platform compatibility with Windows, macOS, and Linux
-* Regularly updated with new features and improvements
+* Centralized documentation management
+* Automated documentation generation
+* Real-time collaboration and commenting
+* Version control and change tracking
+* Customizable documentation templates
 
 ## Tech Stack
 * Markdown for documentation formatting
-* GitHub Pages for hosting and deployment
-* Read the Docs for documentation management
-* Travis CI for automated testing and build processes
-* GitHub License for open-source licensing
+* Git for version control
+* HTML/CSS for customization
+* JavaScript for dynamic functionality
+* Node.js for server-side processing
 
 ## Installation
 To get started with GitSmart Docs, follow these steps:
 1. Clone the repository using `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
-2. Navigate to the cloned repository using `cd GitSmartDocs`
-3. Install the required dependencies using `npm install` or `yarn install`
-4. Build the documentation using `npm run build` or `yarn build`
-5. Serve the documentation using `npm run serve` or `yarn serve`
+2. Navigate to the project directory using `cd GitSmartDocs`
+3. Install dependencies using `npm install`
+4. Start the development server using `npm start`
 
 ## Usage
-To use GitSmart Docs, simply navigate to the hosted documentation website at [https://docs.gitsmartdocs.io/](https://docs.gitsmartdocs.io/). You can browse through the various sections and topics, or use the search function to find specific information.
+1. Create a new documentation project using the `git smart-docs init` command
+2. Add documentation files using Markdown formatting
+3. Use the `git smart-docs build` command to generate HTML documentation
+4. Use the `git smart-docs serve` command to start the development server
 
 ## API Reference
-The API reference for GitSmart Docs can be found at [https://docs.gitsmartdocs.io/api/](https://docs.gitsmartdocs.io/api/). This section provides detailed information on Git commands, options, and parameters, as well as code examples and usage scenarios.
+For more information on the GitSmart Docs API, please visit our [API documentation](https://docs.gitsmartdocs.io/api).
 
 ## License
-GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). This means that you are free to use, modify, and distribute the documentation as you see fit, as long as you include the original copyright and license notice.
+GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to or using this project, you agree to the terms and conditions outlined in the license.

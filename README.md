@@ -4,35 +4,37 @@
 [![License](https://img.shields.io/github/license/GitSmartDocs/GitSmartDocs)](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE)
 
 ## Description
-GitSmart Docs is a comprehensive documentation project designed to provide developers with a robust and easy-to-use platform for creating, managing, and sharing technical documentation.
+GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized platform for accessing and managing technical documentation. The project aims to streamline the documentation process, making it easier for developers to find and share knowledge.
 
 ## Features
-* Automated documentation generation
-* Collaborative editing and version control
+* Centralized documentation platform
+* Automated documentation updates
+* Multi-language support
 * Customizable documentation templates
-* Integrated search and filtering
-* Support for multiple documentation formats
+* Integration with popular development tools
 
 ## Tech Stack
-* Frontend: JavaScript, HTML/CSS
-* Backend: Python, Flask
-* Database: MongoDB
-* Deployment: Docker, Kubernetes
+* Markdown for documentation formatting
+* GitHub Pages for hosting
+* Read the Docs for documentation deployment
+* Travis CI for continuous integration
+* GitHub API for automation
 
 ## Installation
-To install GitSmart Docs, follow these steps:
-1. Clone the repository: `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Start the server: `flask run`
+To get started with GitSmart Docs, follow these steps:
+1. Clone the repository using `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
+2. Install the required dependencies using `npm install`
+3. Configure your GitHub API credentials
+4. Run the automated documentation update script using `npm run docs`
 
 ## Usage
-To use GitSmart Docs, follow these steps:
-1. Create a new documentation project
-2. Invite team members to collaborate
-3. Start creating and editing documentation
+* Access the documentation platform at [https://docs.gitsmartdocs.io/](https://docs.gitsmartdocs.io/)
+* Use the search bar to find specific documentation topics
+* Click on a topic to view its detailed documentation
+* Use the edit button to suggest changes to the documentation
 
 ## API Reference
-For a comprehensive API reference, please visit our [API documentation](https://docs.gitsmartdocs.io/api).
+For more information on the GitSmart Docs API, please refer to our [API documentation](https://docs.gitsmartdocs.io/api/).
 
 ## License
-GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE).
+GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to or using GitSmart Docs, you agree to the terms and conditions of the license.

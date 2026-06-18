@@ -4,35 +4,36 @@
 [![License](https://img.shields.io/github/license/GitSmartDocs/GitSmartDocs)](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE)
 
 ## Description
-GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized platform for accessing and contributing to technical documentation. The project aims to simplify the process of documenting and learning from code repositories.
+GitSmart Docs is a comprehensive documentation project designed to provide developers with a robust and easy-to-use platform for managing technical documentation. The project aims to streamline the documentation process, ensuring that developers can focus on building high-quality software while maintaining accurate and up-to-date documentation.
 
 ## Features
-* Centralized documentation platform
 * Automated documentation generation
-* Community-driven content creation
-* Version control integration
-* Search and filtering capabilities
+* Customizable documentation templates
+* Integration with popular version control systems
+* Real-time collaboration and commenting
+* Advanced search and filtering capabilities
+* Support for multiple documentation formats
 
 ## Tech Stack
-* Markdown for documentation formatting
-* GitHub for version control and community management
-* Read the Docs for documentation hosting
-* Travis CI for automated build and testing
+* Frontend: React, JavaScript
+* Backend: Node.js, Express
+* Database: MongoDB
+* Deployment: Docker, Kubernetes
+* Testing: Jest, Enzyme
 
 ## Installation
-To get started with GitSmart Docs, follow these steps:
-1. Clone the repository using `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
-2. Install dependencies using `pip install -r requirements.txt`
-3. Initialize the project using `git init`
+To install GitSmart Docs, follow these steps:
+1. Clone the repository: `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
+2. Install dependencies: `npm install`
+3. Start the server: `npm start`
 
 ## Usage
-1. Create a new branch for your documentation using `git checkout -b new-branch`
-2. Add your documentation files to the repository
-3. Commit your changes using `git commit -m "description of changes"`
-4. Push your changes to the remote repository using `git push origin new-branch`
+1. Access the web application at `http://localhost:3000`
+2. Create an account or log in to an existing one
+3. Start creating and managing your technical documentation
 
 ## API Reference
-For more information on the API and its endpoints, please refer to our [API documentation](https://docs.gitsmartdocs.io/api).
+For detailed information on the GitSmart Docs API, please visit our [API documentation](https://docs.gitsmartdocs.io/api).
 
 ## License
-GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to or using GitSmart Docs, you agree to the terms and conditions of the license.
+GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). Contributions and forks are welcome.

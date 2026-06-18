@@ -4,35 +4,36 @@
 [![License](https://img.shields.io/github/license/GitSmartDocs/GitSmartDocs)](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE)
 
 ## Description
-GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized platform for creating, managing, and sharing technical documentation. The project aims to streamline the documentation process, reduce errors, and improve collaboration among team members.
+GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized platform for accessing and sharing knowledge on Git and related technologies. The goal of this project is to empower developers with the tools and resources needed to succeed in their careers.
 
 ## Features
-* Automated documentation generation
-* Real-time collaboration and commenting
-* Customizable documentation templates
-* Integration with popular version control systems
-* Support for multiple markup languages
+* **Comprehensive documentation**: In-depth guides and tutorials on Git and related technologies
+* **Community-driven**: Open-source and maintained by a community of developers
+* **Regular updates**: New content and updates added regularly to ensure relevance and accuracy
+* **Search functionality**: Easy-to-use search function to quickly find what you need
+* **Responsive design**: Compatible with desktop, tablet, and mobile devices
 
 ## Tech Stack
-* Frontend: JavaScript, HTML, CSS
-* Backend: Node.js, Express.js
-* Database: MongoDB
-* Deployment: Docker, Kubernetes
+* **Markup language**: Markdown
+* **Static site generator**: Jekyll
+* **Version control**: Git
+* **CI/CD pipeline**: Travis CI
+* **Documentation hosting**: Read the Docs
 
 ## Installation
-To install GitSmart Docs, follow these steps:
+To get started with GitSmart Docs, follow these steps:
 1. Clone the repository: `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
-2. Install dependencies: `npm install`
-3. Start the server: `npm start`
+2. Install dependencies: `bundle install`
+3. Build the site: `bundle exec jekyll build`
+4. Serve the site: `bundle exec jekyll serve`
 
 ## Usage
-1. Access the application: `http://localhost:3000`
-2. Create a new document: Click the "Create" button and follow the prompts
-3. Edit a document: Click the "Edit" button and make changes as needed
-4. Collaborate with team members: Invite team members to edit and comment on documents
+1. Access the documentation: [https://docs.gitsmartdocs.io/](https://docs.gitsmartdocs.io/)
+2. Search for content: Use the search bar to find specific topics or keywords
+3. Contribute to the project: Fork the repository and submit a pull request with your changes
 
 ## API Reference
-For more information on the GitSmart Docs API, please visit our [API documentation](https://docs.gitsmartdocs.io/api).
+For information on the API used to power GitSmart Docs, please refer to the [API documentation](https://docs.gitsmartdocs.io/api).
 
 ## License
-GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to or using GitSmart Docs, you agree to the terms and conditions of the license.
+GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to this project, you agree to abide by the terms of the license.

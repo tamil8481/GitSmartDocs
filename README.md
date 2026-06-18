@@ -4,38 +4,33 @@
 [![License](https://img.shields.io/github/license/GitSmartDocs/GitSmartDocs)](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE)
 
 ## Description
-GitSmart Docs is a comprehensive documentation project designed to provide developers with a robust and intuitive platform for creating, managing, and sharing technical documentation. The project aims to streamline the documentation process, making it easier for developers to focus on coding while ensuring that their projects are well-documented and easily maintainable.
+GitSmart Docs is a comprehensive documentation project designed to provide developers with a centralized platform for accessing and managing technical documentation. The project aims to streamline the documentation process, making it easier for developers to find, create, and share knowledge.
 
 ## Features
 * Automated documentation generation
-* Customizable documentation templates
-* Integration with popular version control systems
 * Real-time collaboration and commenting
-* Extensive API documentation
-* Support for multiple programming languages
+* Version control and change tracking
+* Customizable documentation templates
+* Integration with popular development tools
 
 ## Tech Stack
-* Python 3.9+
-* Flask 2.0+
-* SQLite 3.3+
-* Markdown 3.3+
-* Pygments 2.10+
+* Frontend: JavaScript, HTML/CSS
+* Backend: Node.js, Express.js
+* Database: MongoDB
+* APIs: RESTful API
 
 ## Installation
-To install GitSmart Docs, follow these steps:
 1. Clone the repository: `git clone https://github.com/GitSmartDocs/GitSmartDocs.git`
-2. Navigate to the project directory: `cd GitSmartDocs`
-3. Install the dependencies: `pip install -r requirements.txt`
-4. Run the application: `flask run`
+2. Install dependencies: `npm install`
+3. Start the server: `npm start`
 
 ## Usage
-1. Create a new documentation project using the web interface
-2. Write and edit your documentation using Markdown syntax
-3. Use the built-in API to generate and manage documentation programmatically
-4. Collaborate with others in real-time using the commenting system
+1. Access the web application: `http://localhost:3000`
+2. Register an account or login to an existing one
+3. Create, edit, or view documentation using the intuitive interface
 
 ## API Reference
-For detailed information on the GitSmart Docs API, please refer to our [API documentation](https://docs.gitsmartdocs.io/api).
+For detailed information on the API endpoints and usage, please refer to the [API Documentation](https://docs.gitsmartdocs.io/api).
 
 ## License
-GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to or using GitSmart Docs, you agree to the terms and conditions of this license.
+GitSmart Docs is licensed under the [MIT License](https://github.com/GitSmartDocs/GitSmartDocs/blob/main/LICENSE). By contributing to or using this project, you agree to the terms and conditions outlined in the license.
